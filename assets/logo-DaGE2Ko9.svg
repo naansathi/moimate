@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gold-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="50%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#AA7C11" />
+    </linearGradient>
+    <linearGradient id="maroon-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#951C1C" />
+      <stop offset="100%" stop-color="#4A0505" />
+    </linearGradient>
+  </defs>
+  <!-- Background Shield/Emblem -->
+  <path d="M 50 10 C 70 10 90 20 90 50 C 90 80 50 95 50 95 C 50 95 10 80 10 50 C 10 20 30 10 50 10 Z" fill="url(#maroon-grad)" stroke="url(#gold-grad)" stroke-width="3" />
+  
+  <!-- Traditional Kalasam (Kumbham) -->
+  <!-- Pot base -->
+  <path d="M 35 65 C 35 75, 65 75, 65 65 C 65 52, 35 52, 35 65 Z" fill="url(#gold-grad)" />
+  <!-- Pot neck -->
+  <path d="M 42 53 L 58 53 L 55 46 L 45 46 Z" fill="url(#gold-grad)" opacity="0.9" />
+  <!-- Coconut -->
+  <path d="M 50 30 C 42 38, 42 46, 50 46 C 58 46, 58 38, 50 30 Z" fill="#D4AF37" />
+  <!-- Mango Leaves -->
+  <path d="M 50 46 L 38 41 C 42 45, 46 47, 50 46 Z" fill="#1E5F37" />
+  <path d="M 50 46 L 62 41 C 58 45, 54 47, 50 46 Z" fill="#1E5F37" />
+  <path d="M 50 46 L 50 38" stroke="#1E5F37" stroke-width="2" />
+
+  <!-- Accent stars/dots -->
+  <circle cx="50" cy="20" r="2" fill="url(#gold-grad)" />
+  <circle cx="28" cy="45" r="1.5" fill="url(#gold-grad)" />
+  <circle cx="72" cy="45" r="1.5" fill="url(#gold-grad)" />
+</svg>
